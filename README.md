@@ -10,7 +10,7 @@ The PokemonMarket-NFTs project relies on several technologies for its operation.
 ```bash
 $ cd PokemonMarket-NFTs
 $ npm install --save-dev hardhat
-$ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox @nomiclabs/hardhat-etherscontracts
+$ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox 
 ```
 ## 3. Change variables in Files
 ```bash
@@ -36,7 +36,7 @@ $ npx hardhat run scripts/deploy.js --network mumbai
 <a href="https://imgur.com/fLSnZGm"><img src="https://i.imgur.com/fLSnZGm.gif" title="source: imgur.com" /></a>
 
 
-``` javascript
+``` bash
 
 After deploying the PokemonMarket.sol replace this address in the context/contants.js file with the variable:
 
@@ -49,6 +49,8 @@ export const MarketAddress = "0x88634c8743d9c13b72c407c355Dc4E08f2Ba1025"; //Con
 ``` bash
 
 npm run dev
+
+http://localhost:3000/
 
 ```
 
