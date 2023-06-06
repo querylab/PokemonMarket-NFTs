@@ -1,6 +1,6 @@
-# Pokemon-NFTMarketplace 🛒💎🖼️
+# PokemonMarket-NFTs 🛒💎🖼️
 
-The Pokemon-NFTMarketplace project relies on several technologies for its operation. Solidity is used to develop the smart contracts that enable secure and reliable interaction on the platform. In addition, Metamask Wallet is used to facilitate transaction management and interaction with the blockchain. For data storage, use is made of IPFS through the Infura network, which enables decentralized and secure distribution of information related to Pokémon NFTs. On the other hand, the user interface development is done using Next.js, React.js and Node.js, which provides a dynamic and engaging experience for users. In terms of infrastructure, the project is implemented on the Polygon Mumbai test network, a scalable and efficient network. It should be noted that the configuration of this network can be modified according to the needs of the project. Together, these technologies enable the secure buying, selling and trading of Pokémon NFTs in the market.
+The PokemonMarket-NFTs project relies on several technologies for its operation. Solidity is used to develop the smart contracts that enable secure and reliable interaction on the platform. In addition, Metamask Wallet is used to facilitate transaction management and interaction with the blockchain. For data storage, use is made of IPFS through the Infura network, which enables decentralized and secure distribution of information related to Pokémon NFTs. On the other hand, the user interface development is done using Next.js, React.js and Node.js, which provides a dynamic and engaging experience for users. In terms of infrastructure, the project is implemented on the Polygon Mumbai test network, a scalable and efficient network. It should be noted that the configuration of this network can be modified according to the needs of the project. Together, these technologies enable the secure buying, selling and trading of Pokémon NFTs in the market.
 
 
 ## Setting Up
@@ -8,9 +8,9 @@ The Pokemon-NFTMarketplace project relies on several technologies for its operat
 ## 1. Clone the repository
 ## 2. Install dependencies
 ```bash
-$ cd Pokemon-NFTMarketplace
+$ cd PokemonMarket-NFTs
 $ npm install --save-dev hardhat
-$ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox @nomiclabs/hardhat-etherscontracts
+$ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox 
 ```
 ## 3. Change variables in Files
 ```bash
@@ -36,7 +36,7 @@ $ npx hardhat run scripts/deploy.js --network mumbai
 <a href="https://imgur.com/fLSnZGm"><img src="https://i.imgur.com/fLSnZGm.gif" title="source: imgur.com" /></a>
 
 
-``` javascript
+``` bash
 
 After deploying the PokemonMarket.sol replace this address in the context/contants.js file with the variable:
 
@@ -49,6 +49,8 @@ export const MarketAddress = "0x88634c8743d9c13b72c407c355Dc4E08f2Ba1025"; //Con
 ``` bash
 
 npm run dev
+
+http://localhost:3000/
 
 ```
 
