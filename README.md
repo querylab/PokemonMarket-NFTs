@@ -8,7 +8,7 @@ The PokemonMarket-NFTs project relies on several technologies for its operation.
 ## 1. Clone the repository
 ## 2. Install dependencies
 ```bash
-$ cd Pokemon-NFTMarketplace
+$ cd PokemonMarket-NFTs
 $ npm install --save-dev hardhat
 $ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox @nomiclabs/hardhat-etherscontracts
 ```
