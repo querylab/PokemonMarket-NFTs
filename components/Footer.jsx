@@ -46,9 +46,9 @@ const Footer = () => {
         <div className="flexBetween flex-row w-full minmd:w-4/5 sm:flex-col mt-7">
           <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base">© 2023 Pokemon Market. All Rights Reserved.</p>
           <div className="flex flex-row sm:mt-4">
-           <a href="https://github.com/querylab" target="_blank"  rel="noopener noreferrer"> <Image src={images.instagram} alt="social" width={50} height={50} alt="social" className={theme === 'light' ? 'filter invert' : undefined} /> </a>
-           <a href="https://twitter.com/querylab_" target="_blank"  rel="noopener noreferrer"> <Image src={images.twitter} alt="social" width={50} height={50} alt="social" className={theme === 'light' ? 'filter invert' : undefined} /> </a>
-           <a href="https://medium.com/@querylab" target="_blank"  rel="noopener noreferrer"> <Image src={images.discord} alt="social" width={50} height={50} alt="social" className={theme === 'light' ? 'filter invert' : undefined} /> </a>
+           <a href="https://github.com/querylab" target="_blank"  rel="noopener noreferrer"> <Image src={images.instagram} alt="social" width={40} height={40} alt="social" className={theme === 'light' ? 'filter invert' : undefined} /> </a>
+           <a href="https://twitter.com/querylab_" target="_blank"  rel="noopener noreferrer"> <Image src={images.twitter} alt="social" width={40} height={40} alt="social" className={theme === 'light' ? 'filter invert' : undefined} /> </a>
+           <a href="https://medium.com/@querylab" target="_blank"  rel="noopener noreferrer"> <Image src={images.discord} alt="social" width={40} height={40} alt="social" className={theme === 'light' ? 'filter invert' : undefined} /> </a>
           </div>
         </div>
       </div>
