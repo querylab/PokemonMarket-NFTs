@@ -19,8 +19,7 @@ const App = ({ Component, pageProps }) => (
           />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="icon" href="/favicon.ico" />
-          <script async defer data-website-id="7d34cf07-96ec-4469-9733-5023e5590835" src="https://www.thatquery.com/umami.js" />
-        </Head>
+       <script async src="https://www.thatquery.com/script.js" data-website-id="ea038c3c-b76f-4af4-80b8-a16f676e0f44"></script>        </Head>
         <NextNProgress
           color="#EB1484"
           startPosition={0.3}
