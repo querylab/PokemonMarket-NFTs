@@ -38,7 +38,7 @@ $ npx hardhat run scripts/deploy.js --network mumbai
 
 ``` bash
 
-After deploying the PokemonMarket.sol replace this address in the context/contants.js file with the variable:
+#After deploying the PokemonMarket.sol replace this address in the context/contants.js file with the variable:
 
 export const MarketAddress = "0x88634c8743d9c13b72c407c355Dc4E08f2Ba1025"; //Contract Address for PokemonMarket.sol
 
