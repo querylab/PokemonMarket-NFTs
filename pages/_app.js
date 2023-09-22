@@ -9,8 +9,10 @@ import { Navbar, Footer } from '../components';
 
 const App = ({ Component, pageProps }) => (
   <NFTProvider>
+    <script async src="http://umami.thatquery.com:3000/script.js" data-website-id="c21f8651-2d3d-4557-92f8-ee5f8a54ecc0"></script>
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
+      <script async src="http://umami.thatquery.com:3000/script.js" data-website-id="c21f8651-2d3d-4557-92f8-ee5f8a54ecc0"></script>
         <Head>
           <title>pokemonmarket.com</title>
           <meta
