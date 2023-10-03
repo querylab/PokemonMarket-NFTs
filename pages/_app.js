@@ -9,10 +9,12 @@ import { Navbar, Footer } from '../components';
 
 const App = ({ Component, pageProps }) => (
   <NFTProvider>
-    <script async src="http://umami.thatquery.com:3000/script.js" data-website-id="c21f8651-2d3d-4557-92f8-ee5f8a54ecc0"></script>
+   <script async src="http://3.237.181.107:3001/script.js" data-website-id="77418325-3ddb-4549-82c7-d5c0c99e4035"></script>
+   <script defer data-domain="pokemonmarket.com" src="http://3.237.181.107:8998/js/script.js"></script>
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
-      <script async src="http://umami.thatquery.com:3000/script.js" data-website-id="c21f8651-2d3d-4557-92f8-ee5f8a54ecc0"></script>
+      <script defer data-domain="pokemonmarket.com" src="http://3.237.181.107:8998/js/script.js"></script>
+      <script async src="http://3.237.181.107:3001/script.js" data-website-id="77418325-3ddb-4549-82c7-d5c0c99e4035"></script>
         <Head>
           <title>pokemonmarket.com</title>
           <meta
@@ -21,7 +23,9 @@ const App = ({ Component, pageProps }) => (
           />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="icon" href="/favicon.ico" />
-          <script async src="http://umami.thatquery.com:3000/script.js" data-website-id="c21f8651-2d3d-4557-92f8-ee5f8a54ecc0"></script>        </Head>
+          <script defer data-domain="pokemonmarket.com" src="http://3.237.181.107:8998/js/script.js"></script>
+          <script async src="http://3.237.181.107:3001/script.js" data-website-id="77418325-3ddb-4549-82c7-d5c0c99e4035"></script>
+         </Head>
         <NextNProgress
           color="#EB1484"
           startPosition={0.3}
