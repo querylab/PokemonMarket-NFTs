@@ -11,12 +11,12 @@ const App = ({ Component, pageProps }) => (
   <NFTProvider>
 <script async src="https://umami.thatquery.com/script.js" data-website-id="1ae40614-3789-4492-9576-5a177f88f5d0"></script>
 
-<script defer data-domain="pokemonmarket.com" src="http://54.83.91.45:8000/js/script.js"></script>
+<script defer data-domain="pokemonmarket.com" src="http://plausible.thatquery.com/js/script.js"></script>
 
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
 
-      <script defer data-domain="pokemonmarket.com" src="http://54.83.91.45:8000/js/script.js"></script>
+      <script defer data-domain="pokemonmarket.com" src="http://plausible.thatquery.com/js/script.js"></script>
 
       <script async src="https://umami.thatquery.com/script.js" data-website-id="1ae40614-3789-4492-9576-5a177f88f5d0"></script>
 
@@ -30,8 +30,9 @@ const App = ({ Component, pageProps }) => (
           <link rel="icon" href="/favicon.ico" />
 
       <script async src="https://umami.thatquery.com/script.js" data-website-id="1ae40614-3789-4492-9576-5a177f88f5d0"></script>
-      
-      <script defer data-domain="pokemonmarket.com" src="http://54.83.91.45:8000/js/script.js"></script>
+
+      <script defer data-domain="pokemonmarket.com" src="http://plausible.thatquery.com/js/script.js"></script>
+
 
          </Head>
         <NextNProgress
