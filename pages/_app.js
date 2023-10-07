@@ -9,15 +9,14 @@ import { Navbar, Footer } from '../components';
 
 const App = ({ Component, pageProps }) => (
   <NFTProvider>
-        <script async src="https://umami.thatquery.com/script.js" data-website-id="4f42dcac-84bd-4099-a700-5992e6443484"></script>
-        <script async src="https://ackee.thatquery.com/tracker.js" data-ackee-server="https://ackee.thatquery.com" data-ackee-domain-id="4855914a-3ec9-4de6-bfb6-39e9cb8ad678"></script>
+      <script async src="https://umami-analytics.thatquery.com/script.js" data-website-id="eef298ab-4bf1-43f8-9922-ba7f499ef99f"></script>
+      <script defer data-domain="pokemonmarket.com" src="https://plausible-analytics.thatquery.com/js/script.js"></script>
 
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
 
-      <script async src="https://umami.thatquery.com/script.js" data-website-id="4f42dcac-84bd-4099-a700-5992e6443484"></script>
-      <script async src="https://ackee.thatquery.com/tracker.js" data-ackee-server="https://ackee.thatquery.com" data-ackee-domain-id="4855914a-3ec9-4de6-bfb6-39e9cb8ad678"></script>
-
+      <script async src="https://umami-analytics.thatquery.com/script.js" data-website-id="eef298ab-4bf1-43f8-9922-ba7f499ef99f"></script>
+      <script defer data-domain="pokemonmarket.com" src="https://plausible-analytics.thatquery.com/js/script.js"></script>
         <Head>
           <title>pokemonmarket.com</title>
           <meta
@@ -26,10 +25,9 @@ const App = ({ Component, pageProps }) => (
           />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="icon" href="/favicon.ico" />
-
-          <script async src="https://umami.thatquery.com/script.js" data-website-id="4f42dcac-84bd-4099-a700-5992e6443484"></script>
-          <script async src="https://ackee.thatquery.com/tracker.js" data-ackee-server="https://ackee.thatquery.com" data-ackee-domain-id="4855914a-3ec9-4de6-bfb6-39e9cb8ad678"></script>
-
+          
+          <script async src="https://umami-analytics.thatquery.com/script.js" data-website-id="eef298ab-4bf1-43f8-9922-ba7f499ef99f"></script>
+      <script defer data-domain="pokemonmarket.com" src="https://plausible-analytics.thatquery.com/js/script.js"></script>
 
          </Head>
         <NextNProgress
