@@ -6,17 +6,17 @@ import NextNProgress from 'nextjs-progressbar';
 import { NFTProvider } from '../context/NFTcontext';
 import '../styles/globals.css';
 import { Navbar, Footer } from '../components';
-
+//umami+plausible-analytics
 const App = ({ Component, pageProps }) => (
   <NFTProvider>
-      <script async src="https://umami-analytics.thatquery.com/script.js" data-website-id="eef298ab-4bf1-43f8-9922-ba7f499ef99f"></script>
-      <script defer data-domain="pokemonmarket.com" src="https://plausible-analytics.thatquery.com/js/script.js"></script>
+      <script async src="https://umami.thatquery.com/script.js" data-website-id="c661d42a-fb90-42e9-8af6-bf263c8d44cc"></script>
+      <script defer data-domain="pokemonmarket.com" src="https://plausible.thatquery.com/js/script.js"></script>
 
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
 
-      <script async src="https://umami-analytics.thatquery.com/script.js" data-website-id="eef298ab-4bf1-43f8-9922-ba7f499ef99f"></script>
-      <script defer data-domain="pokemonmarket.com" src="https://plausible-analytics.thatquery.com/js/script.js"></script>
+      <script async src="https://umami.thatquery.com/script.js" data-website-id="c661d42a-fb90-42e9-8af6-bf263c8d44cc"></script>
+      <script defer data-domain="pokemonmarket.com" src="https://plausible.thatquery.com/js/script.js"></script>
         <Head>
           <title>pokemonmarket.com</title>
           <meta
@@ -26,8 +26,8 @@ const App = ({ Component, pageProps }) => (
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="icon" href="/favicon.ico" />
           
-          <script async src="https://umami-analytics.thatquery.com/script.js" data-website-id="eef298ab-4bf1-43f8-9922-ba7f499ef99f"></script>
-      <script defer data-domain="pokemonmarket.com" src="https://plausible-analytics.thatquery.com/js/script.js"></script>
+          <script async src="https://umami.thatquery.com/script.js" data-website-id="c661d42a-fb90-42e9-8af6-bf263c8d44cc"></script>
+          <script defer data-domain="pokemonmarket.com" src="https://plausible.thatquery.com/js/script.js"></script>
 
          </Head>
         <NextNProgress
