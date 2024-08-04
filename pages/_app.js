@@ -11,12 +11,16 @@ const App = ({ Component, pageProps }) => (
   <NFTProvider>
       <script async src="https://umami.thatquery.com/script.js" data-website-id="c661d42a-fb90-42e9-8af6-bf263c8d44cc"></script>
       <script defer data-domain="pokemonmarket.com" src="https://plausible.thatquery.com/js/script.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2153795192514617"
+     crossorigin="anonymous"></script>
 
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
 
       <script async src="https://umami.thatquery.com/script.js" data-website-id="c661d42a-fb90-42e9-8af6-bf263c8d44cc"></script>
       <script defer data-domain="pokemonmarket.com" src="https://plausible.thatquery.com/js/script.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2153795192514617"
+     crossorigin="anonymous"></script>
         <Head>
           <title>pokemonmarket.com</title>
           <meta
@@ -28,6 +32,8 @@ const App = ({ Component, pageProps }) => (
           
           <script async src="https://umami.thatquery.com/script.js" data-website-id="c661d42a-fb90-42e9-8af6-bf263c8d44cc"></script>
           <script defer data-domain="pokemonmarket.com" src="https://plausible.thatquery.com/js/script.js"></script>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2153795192514617"
+     crossorigin="anonymous"></script>
 
          </Head>
         <NextNProgress
